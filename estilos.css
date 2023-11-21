@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+/*font-family: 'Kanit', sans-serif;*/
+
+
+.navbar {
+    background-color: rgba(0, 128, 0, 0.7);
+    font-family: 'Kanit', sans-serif;
+    height: 75px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
