@@ -6,11 +6,14 @@
     font-family: 'Kanit';
 }
 
-
+/*Inicio Navbar*/
 .navbar {
-    background-color: rgba(0, 128, 0, 0.7);
     font-family: 'Kanit', sans-serif;
     height: auto;
+}
+
+.nav-link:hover {
+    color: #222 !important;
 }
 
 .navbar-brand {
@@ -24,23 +27,33 @@ span {
     font-weight: bold;
 }
 
+/*Fin Navbar*/
+/*Inicio jumbotron*/
+
 .jumbotron {
-    background-image: url(Img/video-games-1557358_1920.jpg);
+    background-image: url(../Img/playstation-6689793_1280.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
 }
 
 h1 {
-    padding-top: 50px;
-    color: black;
+    padding-top: 60px;
     text-decoration: underline;
     text-shadow: 3px;
-    font-family: 'Teko';
-    font-size: bold;
-    font-weight: 35px;
+    font-family: 'Kanit';
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px #222;
 }
 
+.jumbotron p {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+/*Fin jumbotron*/
 /* Inicio Noticias*/
 
 h2 {
@@ -63,51 +76,28 @@ section {
     height: 480px;
     width: 230px;
     background-color: #fff;
-    text-align: center;
-    border: 4px solid rgba(25, 135, 84);
-    
+    text-align: center;    
 }
 
 .news-img {
-    background-image: url(Img/lol2.jpg);
-    background-size: cover !important;
+    background-image: url(/Img/lol2.jpg);
+    background-size: cover;
     background-position: center;
     height: 200px;
 }
 
 .news-img2 {
-    background-image: url(Img/er.jpg);
+    background-image: url(../Img/er.jpg);
     background-size: cover;
     background-position: center;
     height: 200px
 }
 
 .news-img3 {
-    background-image: url(Img/fortnite.jpg);
+    background-image: url(../Img/fortnite.jpg);
     background-size: cover;
     background-position: center;
-    height: 200px
-}
-
-.news-img4 {
-    background-image: url(Img/arksurvivalascend2023.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 200px
-}
-
-.news-img5 {
-    background-image: url(Img/ittakestwo.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 200px
-}
-
-.news-img6 {
-    background-image: url(Img/phasmo.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 200px
+    height: 200px;
 }
 
 .news-title {
@@ -117,6 +107,17 @@ section {
 }
 
 /* Fin Noticias */
+/*Inicia footer*/
+
+.text-decoration-none:hover {
+    color: #222 !important;
+}
+
+i {
+    padding-right: 8px;
+}
+
+/*Fin footer*/
 
 @media only screen and (min-width: 100px) and (max-width: 576px) {
     .formulario {
