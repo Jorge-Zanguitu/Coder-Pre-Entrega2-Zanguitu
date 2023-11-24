@@ -80,7 +80,7 @@ section {
 }
 
 .news-img {
-    background-image: url(/Img/lol2.jpg);
+    background-image: url(../Img/lol2.jpg);
     background-size: cover;
     background-position: center;
     height: 200px;
