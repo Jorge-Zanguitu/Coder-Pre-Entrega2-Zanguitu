@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Last Hit</title>
+    <meta name="description" content="Last Hit es la pagina donde conseguirás tus juegos favoritos al mejor precio del mercado y con unos descuentos increíbles">
+    <title>Last Hit | Beneficios</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -17,65 +18,117 @@
     <!--Incio de Navbar-->
     <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Last<span>Hit</span></a>
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-steam"></i>Last<span>Hit</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-md-none d-lg block" id="mynavbar">
-                <ul class="navbar-nav me-auto" id="links">
+                <ul class="navbar-nav ms-auto" id="links">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html"></i>Incio</a>
+                        <a class="nav-link" href="../index.html"></i>Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./Nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Tienda.html">Tienda</a>
+                        <a class="nav-link" href="./Tienda.html">Tienda</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Beneficios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Acceso.html">Acceso</a>
+                        <a class="nav-link" href="./Acceso.html">Acceso</a>
                     </li>
+                    <form class="d-flex formulario">
+                        <input class="form-control me-2 ms-4" type="text" placeholder="Buscar">
+                        <button class="btn btn-dark" type="button">Buscar</button>
+                    </form>
                 </ul>
-                <form class="d-flex formulario">
-                    <input class="form-control me-2" type="text" placeholder="Buscar">
-                    <button class="btn btn-dark" type="button">Buscar</button>
-                </form>
+
             </div>
         </div>
     </nav>
     <!--Fin de Navbar-->
-    <article class="main2 text-white d-flex flex-column justify-content-center p-5">
-        <div class="desc"></div>
-        <h1 class="w-50">Comprar en nuestra página suma puntos</h1>
-        <p class="w-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae itaque, cupiditate repudiandae rerum
-            dolore inventore praesentium eum possimus soluta, sint placeat commodi veritatis obcaecati voluptas vitae
-            asperiores blanditiis? Nemo dignissimos iure ea perspiciatis tempora dolores omnis culpa numquam incidunt
-            suscipit quisquam fuga, alias temporibus maiores quaerat. Minima sunt nisi quidem!</p>
-        <div class="mision"></div>
-        <h1>¿Cómo canjeo mis puntos?</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis animi, hic reiciendis fugit, quos impedit
-            expedita perferendis facilis repellendus error aut autem ipsum explicabo, et veniam? Pariatur praesentium
-            deserunt consectetur autem corrupti, necessitatibus soluta rem, sint inventore iure labore aliquid?</p>
-        <div class="valores"></div>
-        <h1>Obtené grandes descuentos canjeando tus puntos</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae saepe minima porro beatae molestiae quisquam
-            facere numquam, odio at explicabo a nemo reiciendis tempore delectus voluptate atque rem est sint
-            voluptatibus consequuntur aliquid magni praesentium hic voluptatem. Ratione aliquam ipsam eligendi incidunt
-            consectetur, quia voluptas.</p>
-    </article>
-    <footer>
+    <!--Inicio main-->
+    <div class="container-fluid d-flex justify-content-center banner">
+        <div class="row">
+            <img src="../Img/banner.png" alt="Banner puntos" class="img-fluid rounded mx-auto d-block imgbanner">
+            <h2 class="mt-4">¡Empezás a acumular puntos desde el momento en que te registrás y con cada compra realizada
+                sumás para canjear excelentes descuentos en juegos!</h2>
+        </div>
+    </div>
+    <h2 class="bg-success text-white">Presentamos a los "Aureos 🪙"</h2>
+    <div class="container-fluid ms-0 py-5 inst">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <img src="../Img/channcho (1).png" alt="Imagen de alcancia con forma de chancho"
+                    class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-white text-decoration-underline">¿Qué son los Aureos?</h3>
+                <p class="text-white">
+                    "Aureo" es el nombre que le damos a nuestros puntos y lo representamos con el icono de una moneda
+                    "🪙". Tal y como leíste mas arriba, cada vez que compres juegos en nuestra página vas a llevarte
+                    cierta cantidad de Aureos dependiendo cual haya sido el precio del producto que compraste. <br>
+                    <span id="desc">TODOS</span> los juegos otorgan Aureos al concretar la compra, pero <span
+                        id="desc">NO TODOS</span> los juegos aplican a nuestro programa de descuento.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-0 py-5 inst">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <h3 class="text-white text-decoration-underline">¿Cómo utilizo mis Aureos?</h3>
+                <p class="text-white">
+                    Una vez te hayas registrado y hayas iniciado sesión en nuestra página podrás ver la cantidad de
+                    Aureos que posees en la seccion "Tienda", junto al botón de "Añadir al carrito". Tené en cuenta que
+                    este botón solo sera visible si el juego que queres comprar se encuentra dentro del programa de
+                    descuentos. <br>
+                    Cuando te hayas decidido sobre que juego elegir y antes de finalizar la compra verás opciones para
+                    seleccionar un porcentaje de descuento dependiendo los Aureos que tengas.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <img src="../Img/aureos.png" alt="Imagen de descuentos y juegos" class="img-fluid rounded">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid mt-0 py-5 inst">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6">
+                <img src="../Img/video-games-1557358_1920.jpg" alt="Imagen de mano sosteniendo joystick"
+                    class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h3 class="text-white text-decoration-underline">No esperes más para farmear tus Aureos</h3>
+                <p class="text-white">
+                    Aca te dejamos una <a href="#" class="text-white">LISTA</a> con los juegos que tienen un descuento
+                    disponible canjeando Aureos. <br>
+                    Si todavia tenes dudas, intenta visitar nuestra sección de <a href="#" class="text-white">PREGUNTAS
+                        FRECUENTES</a> para que respondamos a todas tus consultas. <br>
+                    ¡Asi que con todo esto dicho no queda mas opcion que ponerse a jugar! ¡Invita a tus amigos para que
+                    todos conozcan nuestra página y pasemos momentos inolvidables juntos!
+                </p>
+            </div>
+        </div>
+    </div>
+    <!--Fin main-->
+    <!--Inicio footer-->
+    <footer class="d-flex flex-column align-items-center text-center">
         <div class="container-fluid">
             <div class="row p-5 bg-success text-white d-flex flex-wrap">
-                <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
                     <h3 class="mb-3">Last<span>Hit</span></h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7797.4801974140455!2d-58.40228310054447!3d-34.744593827503586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1701612141406!5m2!1ses-419!2sar"
+                        width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="my-2"></iframe>
                     <p class="mb-2 text-white">1668 Av. Ficticia</p>
                     <p class="mb-2 text-white">Banfield, Buenos Aires</p>
                     <p class="mb-2 text-white">Argentina</p>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
                     <h5 class="mb-3 text-decoration-underline">Links</h5>
                     <div class="mb-2">
                         <a href="#" class="text-decoration-none text-white">Términos y Condiciones</a>
@@ -84,7 +137,7 @@
                         <a href="#" class="text-decoration-none text-white">Política de Privacidad</a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
                     <h5 class="mb-3 text-decoration-underline">Redes</h5>
                     <div class="mb-2">
                         <a href="#" class="text-decoration-none text-white"><i class="fa-brands fa-facebook-f"
@@ -99,7 +152,7 @@
                                 style="color: white"></i>Twitter</a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
                     <h5 class="mb-3 text-decoration-underline">Acerca de</h5>
                     <div class="mb-2">
                         <a href="#" class="text-decoration-none text-white">Reporta un error</a>
@@ -114,6 +167,7 @@
             </div>
         </div>
     </footer>
+    <!--Fin footer-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>

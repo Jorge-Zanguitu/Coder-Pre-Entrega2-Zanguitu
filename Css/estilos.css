@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Teko:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
 
-/*font-family: 'Kanit', 'Teko', sans-serif; */
+/*font-family: 'Kanit', sans-serif; */
 
 * {
     font-family: 'Kanit';
@@ -100,6 +100,27 @@ section {
     height: 200px;
 }
 
+.news-img4 {
+    background-image: url(../Img/ittakestwo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-img5 {
+    background-image: url(../Img/phasmo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-img6 {
+    background-image: url(../Img/arksurvivalascend2023.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
 .news-title {
     text-decoration: underline;
     padding-top: 10px;
@@ -119,162 +140,369 @@ i {
 
 /*Fin footer*/
 
-main {
-    background-color: #222;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-}
 
-#equipo {
-    background-color: #222;
-    padding-top: 90px;
-}
-
-.slide {
-    width: 30%;
-    height: 60vh;
-}
-
-.slide img {
-    width: 100%;
-    height: 400px;
-    object-fit: contain;
-}
 /* Inicia pagina Nosotros*/
 .main2 {
     background-color: #222;
-    background-image: url(../Img/playstation-6689793_1280.jpg);
+    background-image: url(../Img/fondo2.jpg);
     background-size: cover;
     background-position: center;
-   
 } 
+
+.texto-foto {
+    background-color: #222222c7;
+    border-radius: 5px;
+   padding: auto;
+}
+
 /*Fin pagina Nosotros*/
 /* Inicia pagina Tienda*/
-.main3 {
-    background-color: #222; 
-    width: 100%;
-    height: 100vh;
-    background-image:none;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    gap: 15px;
-    padding-top: 90px;
+.tienda {
+    background-color: #222;
+    padding-top: 95px;
 }
 
-.main3 img {
-    height: 350px;
-    width: 590px;
-    border: 5px solid rgba(25, 135, 84);
-    border-radius: 15px;
-    background-color: none;
-    display: inline-block;
 
-}
-
-.main3 h2 {
-    background-color: none !important;
-    font-size: 20px !important;
-    width: 300px;
-    height: 250px;
-    padding: 0
-}
-
-.main3 span {
-    text-decoration: underline;
-}
-
-.div2 {
-    border: 2px solid white;
-    border-radius: 15px;
-    padding: 50px;
-    height: 300px;
-}
-
-.main3 p {
-    color: white;
-    font-size: 25px;
-}
-
-.main3 a {
-    background-color:rgba(25, 135, 84) ;
-    padding: 10px;
-    color: white;
-    border-radius: 5px;
-    text-decoration: none;
-    width: 70px;
-    height: 100px;
-}
-
-.main3 a:hover {
-    color: #222;
-    text-decoration: underline;
-}
 /* Fin pagina Tienda*/
+/*Inicio Beneficios*/
 
-.fondo {
+.banner {
     background-color: #222;
+    padding-top: 95px;
+    padding-bottom: 30px;
+
+}
+
+.imgbanner {
+    width: 70%;
+    height: auto;
+    
+}
+
+.inst {
+    background-color: #222;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#desc {
+    font-style: italic;
+    color: white;
+}
+
+/*Fin Beneficios*/
+/*Inicio Acceso*/
+
+.registro {
+    background-color: #222;
+    height: auto;
+    padding-top: 95px;
+}
+
+.boton {
+    align-self: center;
+}
+
+input {
+    width: 90% !important;
+}
+
+.formu {
+    padding-left: 15px;
+}
+
+.backg {
+    background-color: #222;
+    height: auto;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #222;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#coment {
+    color: white;
+}
+
+#etiq {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+input, textarea {
     width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+/*font-family: 'Kanit', sans-serif; */
+
+* {
+    font-family: 'Kanit';
+}
+
+/*Inicio Navbar*/
+.navbar {
+    font-family: 'Kanit', sans-serif;
+    height: auto;
+}
+
+.nav-link:hover {
+    color: #222 !important;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+span {
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+}
+
+/*Fin Navbar*/
+/*Inicio jumbotron*/
+
+.jumbotron {
+    background-image: url(../Img/playstation-6689793_1280.jpg);
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 
-.fondo h1 {
-    color: white;
+h1 {
+    padding-top: 60px;
     text-decoration: underline;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 120px;
+    text-shadow: 3px;
+    font-family: 'Kanit';
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px #222;
 }
 
-.fondo form {
-    font-size: 25px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 15px;
-    text-align: center;
-}
-
-#boton {
+.jumbotron p {
+    font-weight: bold;
+    font-size: 20px;
     padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
 }
 
-/*.linea {
-    max-width: 200px;
-    padding: 0;
-    border-top: 1px solid white;
-    height: 2px;
-    background-color: #222;
-}*/
+/*Fin jumbotron*/
+/* Inicio Noticias*/
 
-.fondo2 {
-    background-color: #222;
-    width: 100%;
-    height: 100vh;
-}
-
-.fondo2 h1 {
-    color: white;
-    text-decoration: underline;
-    font-size: 25px;
+h2 {
     text-align: center;
-    padding-top: 120px; 
+    padding: 20px;
+    color: #fff;
+    margin-bottom: 0;
 }
 
-.fondo2 form {
-    font-size: 25px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 15px;
-    text-align: center; 
+section {
+    height: auto;
+    width: 100%;
+    background-color: #222;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.news {
+    height: 480px;
+    width: 230px;
+    background-color: #fff;
+    text-align: center;    
+}
+
+.news-img {
+    background-image: url(../Img/lol2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-img2 {
+    background-image: url(../Img/er.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px
+}
+
+.news-img3 {
+    background-image: url(../Img/fortnite.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-img4 {
+    background-image: url(../Img/ittakestwo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-img5 {
+    background-image: url(../Img/phasmo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-img6 {
+    background-image: url(../Img/arksurvivalascend2023.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-title {
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Fin Noticias */
+/*Inicia footer*/
+
+.text-decoration-none:hover {
+    color: #222 !important;
+}
+
+i {
+    padding-right: 8px;
+}
+
+/*Fin footer*/
+
+
+/* Inicia pagina Nosotros*/
+.main2 {
+    background-color: #222;
+    background-image: url(../Img/fondo2.jpg);
+    background-size: cover;
+    background-position: center;
+} 
+
+.texto-foto {
+    background-color: #222222c7;
+    border-radius: 5px;
+   padding: auto;
+}
+
+/*Fin pagina Nosotros*/
+/* Inicia pagina Tienda*/
+.tienda {
+    background-color: #222;
+    padding-top: 95px;
 }
 
 
+/* Fin pagina Tienda*/
+/*Inicio Beneficios*/
+
+.banner {
+    background-color: #222;
+    padding-top: 95px;
+    padding-bottom: 30px;
+
+}
+
+.imgbanner {
+    width: 70%;
+    height: auto;
+    
+}
+
+.inst {
+    background-color: #222;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#desc {
+    font-style: italic;
+    color: white;
+}
+
+/*Fin Beneficios*/
+/*Inicio Acceso*/
+
+.registro {
+    background-color: #222;
+    height: auto;
+    padding-top: 95px;
+}
+
+.boton {
+    align-self: center;
+}
+
+input {
+    width: 90% !important;
+}
+
+.formu {
+    padding-left: 15px;
+}
+
+.backg {
+    background-color: #222;
+    height: auto;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    background-color: #222;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#coment {
+    color: white;
+}
+
+#etiq {
+    display: block;
+    margin-bottom: 8px;
+    color: white;
+}
+
+#nombre, #comentario {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+}
+
+/*Fin Acceso*/
+
+@media only screen and (min-width: 100px) and (max-width: 576px) {
+    .formulario {
+        display: none !important;
+    }
+}
+
+/*Fin Acceso*/
 
 @media only screen and (min-width: 100px) and (max-width: 576px) {
     .formulario {

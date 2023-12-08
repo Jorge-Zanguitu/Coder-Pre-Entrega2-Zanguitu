@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Last Hit</title>
+    <meta name="description" content="Last Hit es la pagina donde conseguirás tus juegos favoritos al mejor precio del mercado y con unos descuentos increíbles">
+    <title>Last Hit | Tienda</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
@@ -12,89 +13,251 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="../Css/estilos.css">
 </head>
+
 <body>
     <!--Incio de Navbar-->
     <nav class="navbar navbar-expand-md navbar-dark bg-success fixed-top">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Last<span>Hit</span></a>
+            <a class="navbar-brand" href="#"><i class="fa-brands fa-steam"></i>Last<span>Hit</span></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-md-none d-lg block" id="mynavbar">
-                <ul class="navbar-nav me-auto" id="links">
+                <ul class="navbar-nav ms-auto" id="links">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html"></i>Incio</a>
+                        <a class="nav-link" href="../index.html"></i>Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./Nosotros.html">Nosotros</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Tienda</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Beneficios.html">Beneficios</a>
+                        <a class="nav-link" href="./Beneficios.html">Beneficios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="Acceso.html">Acceso</a>
+                        <a class="nav-link" href="./Acceso.html">Acceso</a>
                     </li>
+                    <form class="d-flex formulario">
+                        <input class="form-control me-2 ms-4" type="text" placeholder="Buscar">
+                        <button class="btn btn-dark" type="button">Buscar</button>
+                    </form>
                 </ul>
-                <form class="d-flex formulario">
-                    <input class="form-control me-2" type="text" placeholder="Buscar">
-                    <button class="btn btn-dark" type="button">Buscar</button>
-                </form>
+
             </div>
         </div>
     </nav>
     <!--Fin de Navbar-->
     <!--Inicio main-->
-    <main class="main3">
-        <div class="div">
-            <img src="../Img/pa.jpg" alt="videojuego party animals">
+    <div class="container-fluid text-white tienda w-100 ps-4">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../Img/pa.jpg" alt="Imagen Party Animals" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h2 class="text-decoration-underline">Party Animals</h2>
+                <p>¡Pelea contra tus amigos como perritos, gatitos y otras criaturas peludas en PARTY ANIMALS! Patea a
+                    tus amigos tanto online como offline. Interactúa con el mundo bajo nuestro motor de físicas
+                    realistas. ¿Ya mencioné PERRITOS?</p>
+                <p class="fw-bold">Precio: $8.99</p>
+                <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
+                    Más info
+                </button>
+                <ul class="dropdown-menu bg-success">
+                    <li><p class="dropdown-item-text text-white">Género: Acción, Casual, Indie</p></li>
+                    <li><p class="dropdown-item-text text-white">Desarrollador: Recreate Games</p></li>
+                    <li><p class="dropdown-item-text text-white">Fecha de lanzamiento: 20 SEP 2023</p></li>
+                    <li><p class="dropdown-item-text text-white">Aplicable para descuento con tus Aureos 🪙</p></li>
+                </ul>
+                <button class="btn btn-primary">Añadir al Carrito</button>
+                <button type="button" class="btn btn-success" data-bs-toggle="tooltip" title="Inicia sesión para ver tus Aureos" data-bs-placement="right">🪙</button>
+            </div>
         </div>
-        <div class="div2">
-            <h2><span class="text-white">Descripcion:</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Excepturi ea neque
-                illo. Laudantium, voluptates iure! Quas minima neque eius tempore minus sapiente quis in itaque
-                suscipit, totam delectus placeat voluptates?</h2>
+
+        <div class="row mt-5 ps-4">
+            <div class="col-md-6">
+                <h3>Características</h3>
+                <ul>
+                    <li>Un jugador / JvJ en linea</li>
+                    <li>Cooperativo en linea</li>
+                    <li>Compatibilidad con mando</li>
+                    <li>Multiples idiomas (Español incluido)</li>
+                    <li>Contenido adicional disponible</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Requerimientos</h3>
+                <ul>
+                    <li>SO: Windows 10, 64-bit / Windows 11, 64-bit</li>
+                    <li>Procesador: Intel Core i5 / AMD equivalent</li>
+                    <li>Memoria: 8 GB de RAM</li>
+                    <li>Gráficos: NVIDIA GTX 750-Ti / AMD RX 550, 2GB VRam</li>
+                    <li>DirectX: Versión 11</li>
+                    <li>Almacenamiento: 8 GB de espacio disponible</li>
+                </ul>
+            </div>
         </div>
-        <p>USD 10,00</p><a href="">Agregar al carrito</a>
-    </main>
-    <main class="main3">
-        <div class="div">
-            <img src="../Img/er.jpg" alt="videojuego elden ring">
+    </div>
+
+    <div class="container-fluid text-white tienda w-100 ps-4">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../Img/elden.jpg" alt="Imagen Elden Ring" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h2 class="text-decoration-underline">Elden Ring</h2>
+                <p>El nuevo juego de rol y acción de ambientación fantástica. Álzate, Sinluz, y que la gracia te guíe para abrazar el poder del Círculo de Elden y encumbrarte como señor del Círculo en las Tierras Intermedias.</p>
+                <p class="fw-bold">Precio: $44.99</p>
+                <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
+                    Más info
+                </button>
+                <ul class="dropdown-menu bg-success">
+                    <li><p class="dropdown-item-text text-white">Género: Acción, Rol</p></li>
+                    <li><p class="dropdown-item-text text-white">Desarrollador: FromSoftware Inc.</p></li>
+                    <li><p class="dropdown-item-text text-white">Fecha de lanzamiento: 24 FEB 2022</p></li>
+                </ul>
+                <button class="btn btn-primary">Añadir al Carrito</button>
+            </div>
         </div>
-        <div class="div2">
-            <h2><span class="text-white">Descripcion:</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Excepturi ea neque
-                illo. Laudantium, voluptates iure! Quas minima neque eius tempore minus sapiente quis in itaque
-                suscipit, totam delectus placeat voluptates?</h2>
+
+        <div class="row mt-5 ps-4">
+            <div class="col-md-6">
+                <h3>Características</h3>
+                <ul>
+                    <li>Un jugador / JvJ en linea</li>
+                    <li>Cooperativo en linea</li>
+                    <li>Compatibilidad con mando</li>
+                    <li>Multiples idiomas (Español incluido)</li>
+                    <li>Contenido adicional disponible</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Requerimientos</h3>
+                <ul>
+                    <li>SO: Windows 10</li>
+                    <li>Procesador: Intel Core I5-8400 or AMD Ryzen 3 3300X</li>
+                    <li>Memoria: 12 GB de RAM</li>
+                    <li>Gráficos: NVIDIA GeForce GTX 1060 3 GB or AMD Radeon RX 580 4 GB</li>
+                    <li>DirectX: Versión 12</li>
+                    <li>Almacenamiento: 60 GB de espacio disponible</li>
+                </ul>
+            </div>
         </div>
-        <p>USD 20,00</p><a href="">Agregar al carrito</a>
-    </main>
-    <main class="main3">
-        <div class="div">
-            <img src="../Img/ow.jpg" alt="videojuego overwatch">
+    </div>
+    <div class="container-fluid text-white tienda w-100 ps-4">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../Img/arksurvivalascend2023.jpg" alt="Imagen Ark: Survival Ascended" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h2 class="text-decoration-underline">Ark: Survival Ascended</h2>
+                <p>¡Ark se reinventa desde cero en esta próxima generación de tecnología de videojuegos con Unreal Engine 5! Forma una tribu, domestica y cría cientos de dinosaurios únicos y criaturas primitivas, exploran, cree, construyen y luchan hasta la cima de la cadena alimentaria. ¡Tu nuevo mundo te espera!</p>
+                <p class="fw-bold">Precio: $18.99</p>
+                <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
+                    Más info
+                </button>
+                <ul class="dropdown-menu bg-success">
+                    <li><p class="dropdown-item-text text-white">Género: Acción, Aventura, Multijugador masivo</p></li>
+                    <li><p class="dropdown-item-text text-white">Desarrollador: Studio Wildcard, Grove Street Games</p></li>
+                    <li><p class="dropdown-item-text text-white">Fecha de lanzamiento: 26 OCT 2023</p></li>
+                    <li><p class="dropdown-item-text text-white">Aplicable para descuento con tus Aureos 🪙</p></li>
+                </ul>
+                <button class="btn btn-primary">Añadir al Carrito</button>
+                <button type="button" class="btn btn-success" data-bs-toggle="tooltip" title="Inicia sesión para ver tus Aureos" data-bs-placement="right">🪙</button>
+            </div>
         </div>
-        <div class="div2">
-            <h2><span class="text-white">Descripcion:</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Excepturi ea neque
-                illo. Laudantium, voluptates iure! Quas minima neque eius tempore minus sapiente quis in itaque
-                suscipit, totam delectus placeat voluptates?</h2>
+
+        <div class="row mt-5 ps-4">
+            <div class="col-md-6">
+                <h3>Características</h3>
+                <ul>
+                    <li>Un jugador / JvJ en linea</li>
+                    <li>Cooperativo en linea</li>
+                    <li>Multijugador multiplataforma</li>
+                    <li>Multiples idiomas (Español incluido)</li>
+                    <li>Contenido adicional disponible proximamente</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Requerimientos</h3>
+                <ul>
+                    <li>Procesador y sistema operativo de 64 bits</li>
+                    <li>SO: Windows 10/11 actualizado</li>
+                    <li>Procesador: Intel Core i7-6800K / AMD Ryzen 5 2600X</li>
+                    <li>Memoria: 16 GB de RAM</li>
+                    <li>Gráficos: NVIDIA GeForce 1080 / AMD Radeon RX 5600 XT</li>
+                    <li>DirectX: Versión 12</li>
+                    <li>Almacenamiento: 70 GB de espacio disponible</li>
+                </ul>
+            </div>
         </div>
-        <p>USD 15,00</p><a href="">Agregar al carrito</a>
-    </main>
+    </div>
+
+    <div class="container-fluid text-white tienda w-100 ps-4 pb-5">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="../Img/phasmo.jpg" alt="Imagen Phasmophobia" class="img-fluid">
+            </div>
+            <div class="col-md-8">
+                <h2 class="text-decoration-underline">Phasmophobia</h2>
+                <p>Tú y tu equipo de investigadores paranormales entrarán a locaciones embrujadas, llenas de actividad paranormal, y tratarán de recolectar la mayor información que puedan. Usa tu equipamiento de cazadores de fantasmas para encontrar y grabar evidencia para vender al equipo de remoción de fantasmas.</p>
+                <p class="fw-bold">Precio: $5.99</p>
+                <button type="button" class="btn btn-success dropdown-toggle" data-bs-toggle="dropdown">
+                    Más info
+                </button>
+                <ul class="dropdown-menu bg-success">
+                    <li><p class="dropdown-item-text text-white">Género: Acción, Terror, Indie</p></li>
+                    <li><p class="dropdown-item-text text-white">Desarrollador: Kinetic Games</p></li>
+                    <li><p class="dropdown-item-text text-white">Fecha de lanzamiento: 18 SEP 2020</p></li>
+                    <li><p class="dropdown-item-text text-white">Aplicable para descuento con tus Aureos 🪙</p></li>
+                </ul>
+                <button class="btn btn-primary">Añadir al Carrito</button>
+                <button type="button" class="btn btn-success" data-bs-toggle="tooltip" title="Inicia sesión para ver tus Aureos" data-bs-placement="right">🪙</button>
+            </div>
+        </div>
+
+        <div class="row mt-5 ps-4">
+            <div class="col-md-6">
+                <h3>Características</h3>
+                <ul>
+                    <li>Un jugador</li>
+                    <li>Cooperativo en linea hasta 4 jugadores</li>
+                    <li>Compatibilidad con mando / RV</li>
+                    <li>Multiples idiomas (Español incluido)</li>
+                    <li>Detección de movimiento en mando</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <h3>Requerimientos</h3>
+                <ul>
+                    <li>Procesador y sistema operativo de 64 bits</li>
+                    <li>SO: Windows 10 64Bit</li>
+                    <li>Procesador: Intel Core i5-4590  / AMD Ryzen 5 2600</li>
+                    <li>Memoria: 8 GB de RAM</li>
+                    <li>Gráficos: NVIDIA GTX 970  / AMD Radeon R9 390</li>
+                    <li>DirectX: Versión 11</li>
+                    <li>Almacenamiento: 21 GB de espacio disponible</li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <!--Fin main-->
     <!--Inicio footer-->
-    <footer>
+    <footer class="d-flex flex-column align-items-center text-center">
         <div class="container-fluid">
             <div class="row p-5 bg-success text-white d-flex flex-wrap">
-                <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
                     <h3 class="mb-3">Last<span>Hit</span></h3>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7797.4801974140455!2d-58.40228310054447!3d-34.744593827503586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca3b4ef90cbd%3A0xa0b3812e88e88e87!2sBuenos%20Aires%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1701612141406!5m2!1ses-419!2sar"
+                        width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="my-2"></iframe>
                     <p class="mb-2 text-white">1668 Av. Ficticia</p>
                     <p class="mb-2 text-white">Banfield, Buenos Aires</p>
                     <p class="mb-2 text-white">Argentina</p>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
                     <h5 class="mb-3 text-decoration-underline">Links</h5>
                     <div class="mb-2">
                         <a href="#" class="text-decoration-none text-white">Términos y Condiciones</a>
@@ -103,7 +266,7 @@
                         <a href="#" class="text-decoration-none text-white">Política de Privacidad</a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
                     <h5 class="mb-3 text-decoration-underline">Redes</h5>
                     <div class="mb-2">
                         <a href="#" class="text-decoration-none text-white"><i class="fa-brands fa-facebook-f"
@@ -118,7 +281,7 @@
                                 style="color: white"></i>Twitter</a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-3">
+                <div class="col-xs-12 col-md-6 col-lg-3 mb-3">
                     <h5 class="mb-3 text-decoration-underline">Acerca de</h5>
                     <div class="mb-2">
                         <a href="#" class="text-decoration-none text-white">Reporta un error</a>
@@ -137,6 +300,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
+        <script>
+            var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+            var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+              return new bootstrap.Tooltip(tooltipTriggerEl)
+            })
+            </script>
 </body>
 
 </html>
