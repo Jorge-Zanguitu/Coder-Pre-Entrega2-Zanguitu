@@ -1,0 +1,26 @@
+/*Inicio jumbotron*/
+
+.jumbotron {
+    background-image: url(../Img/playstation-6689793_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+h1 {
+    padding-top: 60px;
+    text-decoration: underline;
+    text-shadow: 3px;
+    font-family: 'Kanit';
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: 1px 1px $color-primario;
+}
+
+.jumbotron p {
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+/*Fin jumbotron*/

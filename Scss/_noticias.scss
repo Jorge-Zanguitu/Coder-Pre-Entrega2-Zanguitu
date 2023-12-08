@@ -1,0 +1,74 @@
+/* Inicio Noticias*/
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    color: $color-secundario;
+    margin-bottom: 0;
+}
+
+section {
+    height: auto;
+    width: 100%;
+    background-color: $color-primario;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.news {
+    height: 480px;
+    width: 230px;
+    background-color: $color-secundario;
+    text-align: center;
+}
+
+.news-img {
+    background-image: url(../Img/lol2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-img2 {
+    background-image: url(../Img/er.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-img3 {
+    background-image: url(../Img/fortnite.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-img4 {
+    background-image: url(../Img/ittakestwo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-img5 {
+    background-image: url(../Img/phasmo.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-img6 {
+    background-image: url(../Img/arksurvivalascend2023.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+}
+
+.news-title {
+    text-decoration: underline;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Fin Noticias */

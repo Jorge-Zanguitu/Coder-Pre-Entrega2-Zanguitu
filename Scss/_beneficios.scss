@@ -1,0 +1,29 @@
+/*Inicio Beneficios*/
+
+@mixin padding-bg {
+    background-color: $color-primario;
+    padding-top: 95px;
+}
+
+.banner {
+    @include padding-bg;
+    padding-bottom: 30px;
+}
+
+.imgbanner {
+    width: 70%;
+    height: auto;
+}
+
+.inst {
+    background-color: $color-primario;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#desc {
+    font-style: italic;
+    color: $color-secundario;
+}
+
+/*Fin Beneficios*/

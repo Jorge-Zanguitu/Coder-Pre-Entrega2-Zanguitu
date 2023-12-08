@@ -1,0 +1,12 @@
+/* Inicia pagina Tienda*/
+
+@mixin padding-bg {
+    background-color: $color-primario;
+    padding-top: 95px;
+}
+
+.tienda {
+    @include padding-bg;
+}
+
+/* Fin pagina Tienda*/

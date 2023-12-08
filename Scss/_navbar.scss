@@ -1,0 +1,23 @@
+/*Inicio Navbar*/
+
+.navbar {
+    font-family: 'Kanit', sans-serif;
+    height: auto;
+  }
+  
+  .nav-link:hover {
+    color: $color-primario !important;
+  }
+  
+  .navbar-brand {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  span {
+    color: $color-primario;
+    font-style: italic;
+    font-weight: bold;
+  }
+  
+  /*Fin Navbar*/
